@@ -1,0 +1,152 @@
+body {
+    background-image: linear-gradient(to right, rgba(0, 4, 255, 0.76), rgba(0, 174, 255, 0.76), rgba(0, 162, 255, 0.363), rgb(162, 0, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+.container {
+    width: 250px; /* Set the width of the container */
+    background-color: rgba(255, 255, 255, 0.26);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+    overflow: hidden;   
+    
+}
+
+
+.login_icon{
+    width: 110px;
+    
+}
+
+
+
+form {
+    position: relative;
+    text-align: left;
+    margin: 15px 5px; /* Adjust the margin for top and bottom */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%; /* Make the input fields take up the full width */
+    background-color: transparent;
+    padding: 6px;
+    border: none;
+    border-bottom: solid 2px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px; /* Adjust the bottom margin */
+    outline: none;
+}
+
+input::placeholder{
+    color: transparent;
+}
+
+label{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    top: 3px;
+    color:rgb(0, 0, 0);
+    transform-origin: 0 0 ;
+    transition: transform 0.15s ease-in-out;
+}
+
+input:focus + label{
+    transform: translateY(-1.1em) scale(0.9);
+}
+
+
+.submit {
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 15px; /* Adjust the top margin */
+    margin-bottom: 30px;
+    font-size: larger;
+    width: 100px;
+    padding: 5px;
+    border: solid 1px black;
+    left:12px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    border: solid 1px rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+
+
+.close{
+    position: relative;
+    left: 76px;
+    top: -326px;
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    padding: 0px;
+    cursor: pointer;
+   
+}
+
+.close:hover{
+    color: white;
+}
+
+#open{
+    cursor: pointer;
+    border: solid 2px transparent;
+    background-color: transparent;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#open:hover{
+    border: solid 2px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+#backbutton{
+    cursor: pointer;
+    border: solid 1px ;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+#backbutton:hover{
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+}
+
+.end {
+    width: 700px;
+    text-align: center;
+
+}
